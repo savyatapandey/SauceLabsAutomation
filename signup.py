@@ -92,29 +92,6 @@ else:
 # button=wait.until(EC.visibility_of_element_located((By.XPATH,"//input[@value='Sign In']"))).click()
 #
 
-test_search_data = [
-
-    {
-        "email":"sabitra231@gmail.com",
-        "password":"Pratik@123",
-        "search_term":"Tshirt"
-
-    },
-    {
-        "email":"savyatapandey@gmail.com",
-        "password":"@Test123",
-        "search_term":"Jacket"
-    },
-    {
-        "email":"Hari@gmail.com",
-        "password":"abc123",
-        "search_term":"Pant"
-    }
-
-]
-
-
-
 time.sleep(10)
 driver.quit()
 
