@@ -10,7 +10,7 @@ chrome_options = Options()
 chrome_options.add_argument("--start-maximized--")
 
 #for headless and jenkins
-chrome_options.add_argument("--headless=new") #this is for run in background
+chrome_options.add_argument("--headless=new") #this is for run in backgroundad
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
